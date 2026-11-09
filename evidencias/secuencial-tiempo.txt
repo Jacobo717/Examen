@@ -1,0 +1,1 @@
+﻿Metodo: Python secuencial; registros leidos: 5,000,000; tiendas: 25; tiempo_medicion_segundos: 26.7081903

@@ -1,0 +1,176 @@
+﻿ANTES DE down: 2026-11-09T16:27:37.2327407-06:00
+ Container examen-api-1 Stopping 
+ Container examen-api-1 Stopped 
+ Container examen-api-1 Removing 
+ Container examen-api-1 Removed 
+ Container examen-db-1 Stopping 
+ Container examen-job-1 Stopping 
+ Container examen-job-1 Stopped 
+ Container examen-job-1 Removing 
+ Container examen-job-1 Removed 
+ Container examen-hadoop-1 Stopping 
+ Container examen-db-1 Stopped 
+ Container examen-db-1 Removing 
+ Container examen-db-1 Removed 
+ Container examen-hadoop-1 Stopped 
+ Container examen-hadoop-1 Removing 
+ Container examen-hadoop-1 Removed 
+ Network examen_datamart Removing 
+ Network examen_datamart Removed 
+ Network examen_datamart Creating 
+ Network examen_datamart Creating 
+ Network examen_datamart Created 
+ Network examen_datamart Created 
+ Container examen-hadoop-1 Creating 
+ Container examen-db-1 Creating 
+ Container examen-hadoop-1 Created 
+ Container examen-job-1 Creating 
+ Container examen-db-1 Created 
+ Container examen-job-1 Created 
+ Container examen-api-1 Creating 
+ Container examen-api-1 Created 
+ Container examen-db-1 Starting 
+ Container examen-hadoop-1 Starting 
+ Container examen-db-1 Started 
+ Container examen-hadoop-1 Started 
+ Container examen-hadoop-1 Waiting 
+ Container examen-hadoop-1 Healthy 
+ Container examen-job-1 Starting 
+ Container examen-job-1 Started 
+ Container examen-job-1 Waiting 
+ Container examen-db-1 Waiting 
+ Container examen-db-1 Healthy 
+ Container examen-job-1 Exited 
+ Container examen-api-1 Starting 
+ Container examen-api-1 Started 
+{
+    "value":  [
+                  {
+                      "clave":  "T001",
+                      "ticket_promedio":  8147.73,
+                      "registros":  199453
+                  },
+                  {
+                      "clave":  "T002",
+                      "ticket_promedio":  8130.97,
+                      "registros":  199912
+                  },
+                  {
+                      "clave":  "T003",
+                      "ticket_promedio":  8144.95,
+                      "registros":  200079
+                  },
+                  {
+                      "clave":  "T004",
+                      "ticket_promedio":  8138.71,
+                      "registros":  199993
+                  },
+                  {
+                      "clave":  "T005",
+                      "ticket_promedio":  8150.55,
+                      "registros":  200233
+                  },
+                  {
+                      "clave":  "T006",
+                      "ticket_promedio":  8138.99,
+                      "registros":  199984
+                  },
+                  {
+                      "clave":  "T007",
+                      "ticket_promedio":  8155.11,
+                      "registros":  199904
+                  },
+                  {
+                      "clave":  "T008",
+                      "ticket_promedio":  8164.27,
+                      "registros":  199870
+                  },
+                  {
+                      "clave":  "T009",
+                      "ticket_promedio":  8136.46,
+                      "registros":  199836
+                  },
+                  {
+                      "clave":  "T010",
+                      "ticket_promedio":  8159.96,
+                      "registros":  200710
+                  },
+                  {
+                      "clave":  "T011",
+                      "ticket_promedio":  8135.75,
+                      "registros":  199641
+                  },
+                  {
+                      "clave":  "T012",
+                      "ticket_promedio":  8118.99,
+                      "registros":  199460
+                  },
+                  {
+                      "clave":  "T013",
+                      "ticket_promedio":  8178.32,
+                      "registros":  200285
+                  },
+                  {
+                      "clave":  "T014",
+                      "ticket_promedio":  8106.61,
+                      "registros":  199610
+                  },
+                  {
+                      "clave":  "T015",
+                      "ticket_promedio":  8132.4,
+                      "registros":  201257
+                  },
+                  {
+                      "clave":  "T016",
+                      "ticket_promedio":  8105.87,
+                      "registros":  200072
+                  },
+                  {
+                      "clave":  "T017",
+                      "ticket_promedio":  8137.38,
+                      "registros":  200789
+                  },
+                  {
+                      "clave":  "T018",
+                      "ticket_promedio":  8135.45,
+                      "registros":  199897
+                  },
+                  {
+                      "clave":  "T019",
+                      "ticket_promedio":  8104.13,
+                      "registros":  199427
+                  },
+                  {
+                      "clave":  "T020",
+                      "ticket_promedio":  8140.33,
+                      "registros":  200009
+                  },
+                  {
+                      "clave":  "T021",
+                      "ticket_promedio":  8139.12,
+                      "registros":  199703
+                  },
+                  {
+                      "clave":  "T022",
+                      "ticket_promedio":  8151.03,
+                      "registros":  199761
+                  },
+                  {
+                      "clave":  "T023",
+                      "ticket_promedio":  8164.48,
+                      "registros":  199278
+                  },
+                  {
+                      "clave":  "T024",
+                      "ticket_promedio":  8156.12,
+                      "registros":  200393
+                  },
+                  {
+                      "clave":  "T025",
+                      "ticket_promedio":  8143.53,
+                      "registros":  200444
+                  }
+              ],
+    "Count":  25
+}
+Persistencia verificada: 2026-11-09T16:29:11.1230501-06:00
