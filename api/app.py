@@ -3,6 +3,8 @@ from typing import Any
 
 import psycopg
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
+from pathlib import Path
 from pydantic import BaseModel, Field
 
 app = FastAPI(title="DataMart API", version="1.0.0")
@@ -28,6 +30,10 @@ def serialize(row: tuple[Any, ...]) -> dict[str, Any]:
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+
+@app.get("/", response_class=HTMLResponse)
+def home() -> HTMLResponse:
+    return HTMLResponse(Path("/app/index.html").read_text(encoding="utf-8"))
 
 @app.get("/resultados")
 def resultados() -> list[dict[str, Any]]:
